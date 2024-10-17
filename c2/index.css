@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    max-width: 700px;
+    height: 700px;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 40px;
+    color: wheat;
+    /* create flex container for parent */
+    display: flex;
+
+    /* to make flex items in row*/
+    flex-direction: row;
+   
+     /* to adjust according to mobile,desktop and laptop view */
+    flex-wrap: wrap;
+
+    /* to have space between flex items */
+    gap:10px;
+
+    /* horizontal */
+    justify-content: space-around;
+
+    /* vertical */
+    align-items: center;
+}
+
+
+.child{
+    width: 100px;
+    height: 100px;
+    /* flex-grow: 100; */
+   
+}
+
+
+.child1
+{
+    background-color: red;
+    align-self: flex-start;
+    /* flex-grow: 1; */
+}
+
+.child2{
+    background-color: blue;
+    /* flex-grow: 2; */
+}
+
+.child3{
+    background-color: green;
+    /* flex-grow: 3; */
+}

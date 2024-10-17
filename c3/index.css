@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.parent{
+    border: 2px solid black;
+    margin: auto;
+    margin: 100px auto;
+    width: 700px;
+    height: 800px;
+}
+
+
+.child{
+    width: 100px;
+    height: 100px;
+}
+
+
+.child-1{
+    background-color: red;
+    /* absolute element  relative to its nearest position ancestor*/
+    position: absolute;
+    right: -50px;
+    
+}
+
+.child-2{
+    background-color: blue;
+    position: fixed;
+}
+
+
+.child-3{
+    background-color: blueviolet;
+    position: sticky;
+    top:50px
+
+}
